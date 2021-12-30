@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://gitlab.com/wlsf82/curso-cypress-intermediario/issues"
   },
-  "homepage": "https://gitlab.com/wlsf82/curso-cypress-intermediario#readme"
+  "homepage": "https://gitlab.com/wlsf82/curso-cypress-intermediario#readme",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
 }
