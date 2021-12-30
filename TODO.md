@@ -32,6 +32,7 @@ _Passos inicias_
 - Excluir pastas de exemplos dentro da pasta no caminho 'cypress/integration/'
 - Adicionar este trecho de código no arquivo cypress.json
   `{ "baseUrl": "http://localhost/" }`
+- Criar pasta temp
 - Criar arquivo com o nome 'cypress.env.json' e adicionar este trecho de código
   `{ "user_name": "root", "user_password": "password-do-usuario-root-definido-anteriormente", "gitlab_access_token": "access-token-criado-anteriormente" }`
 - Colar os dados gerados na aplicação de teste nos seus respectivos atributos no arquivo 'cypress.env.json'
