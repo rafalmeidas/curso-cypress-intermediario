@@ -18,6 +18,8 @@
   },
   "homepage": "https://gitlab.com/wlsf82/curso-cypress-intermediario#readme",
   "devDependencies": {
-    "cypress": "^9.2.0"
-  }
+    "cypress": "^9.2.0",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {}
 }
