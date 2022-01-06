@@ -67,3 +67,12 @@ _Problemas ao criar testes somente via GUI (Interface Gráfica de Usuário)_
 
 - Testes demorados.
 - Testes não independentes (se um botão não estiver aparecendo no front-end o teste irá quebrar)
+
+### Aula 5
+
+_Testes de API_
+
+- É possível otimizar os testes criando funções de teste que fazem a chamada diretamente para a api, e com o dado criado em tela podemos acessa-lo e fazer testes diretos no front-end, assim, podemos diminuir o custo de fazer esse tipo de teste GUI.
+
+  _API do gitlab_
+  `https://docs.gitlab.com/ee/api/projects.html#create-project`
