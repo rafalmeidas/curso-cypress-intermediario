@@ -57,4 +57,13 @@ _Para utilizar a biblioteca basta importar ela no arquivo .js da seguinte forma_
 **Importar:** `const faker = require('faker');`
 **Utilizar:** `faker.datatype.uuid(); faker.random.words(5)`
 
+_Executar apenas um teste_
+`npx cypress run --spec cypress/integration/gui/createProject.spec.js`
+
 ### Aula 4
+
+_Problemas ao criar testes somente via GUI (Interface Gráfica de Usuário)_
+**Testes de interface gráfica demoram muito para serem executados, o teste mais simples pode durar 10 segundos.**
+
+- Testes demorados.
+- Testes não independentes (se um botão não estiver aparecendo no front-end o teste irá quebrar)
