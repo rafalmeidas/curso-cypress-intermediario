@@ -91,3 +91,7 @@ _Utilizar testes de API com testes GUI_
 _Exemplos em:_
 _Chamada da função_
 `cypress/integration/gui/createIssue.spec.js`
+
+### Aula 7
+
+_Testar somente uma vez a GUI e usar ao máximo as funçõs API para redirecionar para as telas com os dados prontos_
