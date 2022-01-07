@@ -72,7 +72,22 @@ _Problemas ao criar testes somente via GUI (Interface Gráfica de Usuário)_
 
 _Testes de API_
 
-- É possível otimizar os testes criando funções de teste que fazem a chamada diretamente para a api, e com o dado criado em tela podemos acessa-lo e fazer testes diretos no front-end, assim, podemos diminuir o custo de fazer esse tipo de teste GUI.
+- É possível otimizar os testes criando funções de teste que fazem a chamada diretamente para a API, e com o dado criado em tela podemos acessa-lo e fazer testes diretos no front-end, assim, podemos diminuir o custo de fazer esse tipo de teste GUI.
 
-  _API do gitlab_
-  `https://docs.gitlab.com/ee/api/projects.html#create-project`
+**Teste de API ( chamada da função)**
+_Exemplos em:_
+_Chamada da função_
+`cypress/integration/api/createProject.spec.js`
+
+_Função_
+`cypress/support/api_commands.js`
+
+_API do gitlab_
+`https://docs.gitlab.com/ee/api/projects.html#create-project`
+
+### Aula 6
+
+_Utilizar testes de API com testes GUI_
+_Exemplos em:_
+_Chamada da função_
+`cypress/integration/gui/createIssue.spec.js`
