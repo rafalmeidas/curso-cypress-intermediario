@@ -100,3 +100,15 @@ _Testar somente uma vez a GUI e usar ao máximo as funçõs API para redireciona
 
 _É possível excutar comandos de terminal direto pelo cypress como comandos npm, git clone, enfim qualquer comando a nível se sistema operacional, alguns exemplo nas pastas integration/cli/gitClone.spec.js e support/cli_commands.js_
 
+### Aula 9
+
+_Exectar todos testes, testes a nível de sistema operacional, api e gui pelo npm_
+
+- Executar testes em modo headless `npx cypress run`
+- Executar testes em modo iterativo `npx cypress open` e clicar em 'Run all testes'
+- Parar container do docker:
+  -- Listar container `docker container ls`
+  -- Pegar **CONTAINER ID** apresentado no console
+  -- Parar container `docker container stop CONTAINER ID`
+
+Para iniciar novamente a aplicação seguir os passos do docker na **Aula 1** e criar novamente arquivo **cypress.env.json** com os passos da **Aula 2**.
