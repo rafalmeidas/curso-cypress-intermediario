@@ -95,3 +95,8 @@ _Chamada da função_
 ### Aula 7
 
 _Testar somente uma vez a GUI e usar ao máximo as funçõs API para redirecionar para as telas com os dados prontos_
+
+### Aula 8
+
+_É possível excutar comandos de terminal direto pelo cypress como comandos npm, git clone, enfim qualquer comando a nível se sistema operacional, alguns exemplo nas pastas integration/cli/gitClone.spec.js e support/cli_commands.js_
+
